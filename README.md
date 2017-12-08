@@ -5,6 +5,7 @@ This page provides details about a small, short-term, safe, and secure measureme
 * connection lifetime to Tor Guards,
 * popularity of web domains accessed via Tor Exits,
 * usage, failure rates, and popularity of Tor Onion Services,
+
 while providing strong user privacy guarantees.
 
 We believe that this study is safe: we only learn total counts or a histogram of counts, with added noise. Because we use PrivCount, we do not learn the usage of single relays, or total network usage without any noise. All unblinded data is kept on the collecting relay, and is automatically destroyed after processing. See the [safety section](#what-are-we-doing-how-is-this-safe) for more details.
